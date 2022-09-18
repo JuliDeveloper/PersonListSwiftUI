@@ -11,7 +11,6 @@ struct Contacts: View {
     
     let persons: [Person]
     
-    
     var body: some View {
         NavigationView {
             List(persons) { person in

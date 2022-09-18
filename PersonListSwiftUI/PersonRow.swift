@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PersonRow: View {
     
-    var person: Person
+    let person: Person
     private var fullNamePerson: String {
         person.fullName
     }
