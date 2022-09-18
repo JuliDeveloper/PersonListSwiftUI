@@ -12,6 +12,7 @@
 		25C8839828D780B7002E5ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C8839728D780B7002E5ED3 /* Assets.xcassets */; };
 		25C8839B28D780B7002E5ED3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C8839A28D780B7002E5ED3 /* Preview Assets.xcassets */; };
 		25C883A328D7825A002E5ED3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C883A228D7825A002E5ED3 /* DataManager.swift */; };
+		25C883A628D783B4002E5ED3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C883A528D783B4002E5ED3 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		25C8839728D780B7002E5ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25C8839A28D780B7002E5ED3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25C883A228D7825A002E5ED3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		25C883A528D783B4002E5ED3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				25C8839328D780B7002E5ED3 /* PersonListSwiftUIApp.swift */,
 				25C8839528D780B7002E5ED3 /* ContentView.swift */,
+				25C883A428D78391002E5ED3 /* Model */,
 				25C883A128D78230002E5ED3 /* Service */,
 				25C8839728D780B7002E5ED3 /* Assets.xcassets */,
 				25C8839928D780B7002E5ED3 /* Preview Content */,
@@ -76,6 +79,14 @@
 				25C883A228D7825A002E5ED3 /* DataManager.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		25C883A428D78391002E5ED3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25C883A528D783B4002E5ED3 /* Person.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			files = (
 				25C8839628D780B7002E5ED3 /* ContentView.swift in Sources */,
 				25C883A328D7825A002E5ED3 /* DataManager.swift in Sources */,
+				25C883A628D783B4002E5ED3 /* Person.swift in Sources */,
 				25C8839428D780B7002E5ED3 /* PersonListSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
