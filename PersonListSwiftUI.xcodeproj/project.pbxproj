@@ -15,6 +15,7 @@
 		25C883A628D783B4002E5ED3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C883A528D783B4002E5ED3 /* Person.swift */; };
 		25C883A828D786B4002E5ED3 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C883A728D786B4002E5ED3 /* Contacts.swift */; };
 		25C883AA28D786D5002E5ED3 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C883A928D786D5002E5ED3 /* Numbers.swift */; };
+		25C883AC28D7895A002E5ED3 /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C883AB28D7895A002E5ED3 /* PersonRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		25C883A528D783B4002E5ED3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		25C883A728D786B4002E5ED3 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		25C883A928D786D5002E5ED3 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		25C883AB28D7895A002E5ED3 /* PersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				25C8839328D780B7002E5ED3 /* PersonListSwiftUIApp.swift */,
 				25C8839528D780B7002E5ED3 /* ContentView.swift */,
 				25C883A728D786B4002E5ED3 /* Contacts.swift */,
+				25C883AB28D7895A002E5ED3 /* PersonRow.swift */,
 				25C883A928D786D5002E5ED3 /* Numbers.swift */,
 				25C883A428D78391002E5ED3 /* Model */,
 				25C883A128D78230002E5ED3 /* Service */,
@@ -167,6 +170,7 @@
 			files = (
 				25C8839628D780B7002E5ED3 /* ContentView.swift in Sources */,
 				25C883A328D7825A002E5ED3 /* DataManager.swift in Sources */,
+				25C883AC28D7895A002E5ED3 /* PersonRow.swift in Sources */,
 				25C883A628D783B4002E5ED3 /* Person.swift in Sources */,
 				25C883A828D786B4002E5ED3 /* Contacts.swift in Sources */,
 				25C883AA28D786D5002E5ED3 /* Numbers.swift in Sources */,
