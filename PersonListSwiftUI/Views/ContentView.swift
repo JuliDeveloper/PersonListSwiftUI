@@ -9,9 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var persons: [Person] {
-        Person.getPerson()
-    }
+    private let persons: [Person] = Person.getPerson()
     
     var body: some View {
         TabView {

@@ -27,22 +27,23 @@ extension Person {
         
         var persons: [Person] = []
         
+        let names = dataPerson.names.shuffled()
+        let lastnames = dataPerson.lastnames.shuffled()
+        let phones = dataPerson.phones.shuffled()
+        let emails = dataPerson.emails.shuffled()
+        
         let count = min(dataPerson.names.count,
                         dataPerson.lastnames.count,
                         dataPerson.phones.count,
                         dataPerson.emails.count)
         
-        for _ in 0..<count {
-            let name = dataPerson.names.randomElement() ?? ""
-            let lastname = dataPerson.lastnames.randomElement() ?? ""
-            let phone = dataPerson.phones.randomElement() ?? ""
-            let email = dataPerson.emails.randomElement() ?? ""
+        for index in 0..<count {
             
             persons.append(Person(id: Int.random(in: 1...100),
-                                  name: name,
-                                  lastname: lastname,
-                                  phone: phone,
-                                  email: email))
+                                  name: names[index],
+                                  lastname: lastnames[index],
+                                  phone: phones[index],
+                                  email: emails[index]))
         }
         
         return persons
