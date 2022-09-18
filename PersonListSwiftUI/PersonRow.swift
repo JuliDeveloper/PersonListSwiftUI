@@ -10,13 +10,10 @@ import SwiftUI
 struct PersonRow: View {
     
     let person: Person
-    private var fullNamePerson: String {
-        person.fullName
-    }
     
     var body: some View {
         HStack {
-            Text("\(fullNamePerson)")
+            Text("\(person.fullName)")
             Spacer()
         }
     }
