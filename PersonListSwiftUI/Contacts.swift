@@ -14,10 +14,12 @@ struct Contacts: View {
     var body: some View {
         NavigationView {
             List(persons) { person in
-                PersonRow(person: person)
+                NavigationLink(destination: PersonInformation(person: person)) {
+                    PersonRow(person: person)
+                }
+                .listStyle(.inset)
+                .navigationTitle("Contact List")
             }
-            .listStyle(.inset)
-            .navigationTitle("Contact List")
         }
     }
 }
