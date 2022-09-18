@@ -63,12 +63,7 @@
 		25C8839228D780B7002E5ED3 /* PersonListSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				25C8839328D780B7002E5ED3 /* PersonListSwiftUIApp.swift */,
-				25C8839528D780B7002E5ED3 /* ContentView.swift */,
-				25C883A728D786B4002E5ED3 /* Contacts.swift */,
-				25C883AB28D7895A002E5ED3 /* PersonRow.swift */,
-				25C883AD28D79007002E5ED3 /* PersonInformation.swift */,
-				25C883A928D786D5002E5ED3 /* Numbers.swift */,
+				25C883AF28D796AD002E5ED3 /* Views */,
 				25C883A428D78391002E5ED3 /* Model */,
 				25C883A128D78230002E5ED3 /* Service */,
 				25C8839728D780B7002E5ED3 /* Assets.xcassets */,
@@ -99,6 +94,19 @@
 				25C883A528D783B4002E5ED3 /* Person.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		25C883AF28D796AD002E5ED3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25C8839328D780B7002E5ED3 /* PersonListSwiftUIApp.swift */,
+				25C8839528D780B7002E5ED3 /* ContentView.swift */,
+				25C883A728D786B4002E5ED3 /* Contacts.swift */,
+				25C883A928D786D5002E5ED3 /* Numbers.swift */,
+				25C883AD28D79007002E5ED3 /* PersonInformation.swift */,
+				25C883AB28D7895A002E5ED3 /* PersonRow.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

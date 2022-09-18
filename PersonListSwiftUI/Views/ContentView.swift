@@ -19,7 +19,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("Contacts", systemImage: "person.3.fill")
                 }
-            Numbers()
+            Numbers(persons: persons)
                 .tabItem {
                     Label("Numbers", systemImage: "phone.fill")
                 }
