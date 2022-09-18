@@ -16,6 +16,7 @@
 		25C883A828D786B4002E5ED3 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C883A728D786B4002E5ED3 /* Contacts.swift */; };
 		25C883AA28D786D5002E5ED3 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C883A928D786D5002E5ED3 /* Numbers.swift */; };
 		25C883AC28D7895A002E5ED3 /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C883AB28D7895A002E5ED3 /* PersonRow.swift */; };
+		25C883AE28D79007002E5ED3 /* PersonInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C883AD28D79007002E5ED3 /* PersonInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		25C883A728D786B4002E5ED3 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		25C883A928D786D5002E5ED3 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
 		25C883AB28D7895A002E5ED3 /* PersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
+		25C883AD28D79007002E5ED3 /* PersonInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				25C8839528D780B7002E5ED3 /* ContentView.swift */,
 				25C883A728D786B4002E5ED3 /* Contacts.swift */,
 				25C883AB28D7895A002E5ED3 /* PersonRow.swift */,
+				25C883AD28D79007002E5ED3 /* PersonInformation.swift */,
 				25C883A928D786D5002E5ED3 /* Numbers.swift */,
 				25C883A428D78391002E5ED3 /* Model */,
 				25C883A128D78230002E5ED3 /* Service */,
@@ -175,6 +178,7 @@
 				25C883A828D786B4002E5ED3 /* Contacts.swift in Sources */,
 				25C883AA28D786D5002E5ED3 /* Numbers.swift in Sources */,
 				25C8839428D780B7002E5ED3 /* PersonListSwiftUIApp.swift in Sources */,
+				25C883AE28D79007002E5ED3 /* PersonInformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
