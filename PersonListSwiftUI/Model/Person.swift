@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct Person {
+struct Person: Identifiable {
+    
+    let id: Int
     let name: String
     let lastname: String
     let phone: String
@@ -36,7 +38,8 @@ extension Person {
             let phone = dataPerson.phones.randomElement() ?? ""
             let email = dataPerson.emails.randomElement() ?? ""
             
-            persons.append(Person(name: name,
+            persons.append(Person(id: Int.random(in: 1...100),
+                                  name: name,
                                   lastname: lastname,
                                   phone: phone,
                                   email: email))
