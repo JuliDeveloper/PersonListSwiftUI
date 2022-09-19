@@ -8,6 +8,9 @@
 import Foundation
 
 class DataManager {
+    
+    static let shared = DataManager()
+    
     let names = [
         "John",
         "Sharon",
@@ -59,4 +62,6 @@ class DataManager {
         "ooo@mail.ru",
         "ppp@mail.ru"
     ]
+    
+    private init() {}
 }

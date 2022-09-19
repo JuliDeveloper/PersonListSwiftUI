@@ -23,19 +23,17 @@ struct Person: Identifiable {
 extension Person {
     static func getPerson() -> [Person] {
         
-        let dataPerson = DataManager()
-        
         var persons: [Person] = []
         
-        let names = dataPerson.names.shuffled()
-        let lastnames = dataPerson.lastnames.shuffled()
-        let phones = dataPerson.phones.shuffled()
-        let emails = dataPerson.emails.shuffled()
+        let names = DataManager.shared.names.shuffled()
+        let lastnames = DataManager.shared.lastnames.shuffled()
+        let phones = DataManager.shared.phones.shuffled()
+        let emails = DataManager.shared.emails.shuffled()
         
-        let count = min(dataPerson.names.count,
-                        dataPerson.lastnames.count,
-                        dataPerson.phones.count,
-                        dataPerson.emails.count)
+        let count = min(DataManager.shared.names.count,
+                        DataManager.shared.lastnames.count,
+                        DataManager.shared.phones.count,
+                        DataManager.shared.emails.count)
         
         for index in 0..<count {
             
